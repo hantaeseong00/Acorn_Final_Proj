@@ -1,0 +1,25 @@
+회의록
+2023.05.19
+
+1. 팀장 선정
+
+2. 브레인스토밍
+	- 이미지 분석을 위한 주제 선정
+	- 유튜브 활용
+	
+3. 자료
+	https://ko.shaip.com/blog/22-open-source-image-data-for-computer-vision/
+	https://dacon.io/competitions/official/236107/data
+	https://dacon.io/competitions/official/236006/overview/description
+	https://dacon.io/competitions/official/236050/overview/description
+	https://www.youtube.com/watch?v=jPy23jw2-R8&list=PLM1R75VoMYgnQiZzLOaqFyu1Ioph6eVdP&index=4
+	https://www.youtube.com/watch?v=fysrbRkw_mA
+	https://www.youtube.com/watch?v=jiwFvVVISpo
+	https://www.kaggle.com/competitions/image-matching-challenge-2022/overview
+	https://www.kaggle.com/competitions/asl-fingerspelling
+
+	https://acornedu.co.kr/lms/upload/project/2022/7/bigdata2_22_02.pdf
+	https://acornedu.co.kr/lms/upload/project/2022/4/MachineLearningB_21_04.pdf
+	https://acornedu.co.kr/lms/upload/project/2021/5/JavaBigdata_21_04.pdf
+	
+	https://aihub.or.kr/aihubdata/data/view.do?currMenu=115&topMenu=100&aihubDataSe=realm&dataSetSn=488
