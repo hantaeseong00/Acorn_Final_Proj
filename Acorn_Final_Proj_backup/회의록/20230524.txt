@@ -1,0 +1,45 @@
+회의록
+20230524
+
+1. 주제선정
+	1. 안전모
+		- https://data.seoul.go.kr/etc/aiEduData.do
+		- 현재 사회적 이슈를 다루는 주제(중대재해처벌법)
+		- 안전모 데이터를 학습하여, 현장에서 안전모를 착용하지 않은 작업자를 파악
+	2. 민원파악
+		- 현재 사회적 이슈 도출
+	3. 수화
+		- https://aihub.or.kr/aihubdata/data/view.do?currMenu=115&topMenu=100&aihubDataSe=realm&dataSetSn=103
+		- 기존 수화 데이터와 달리 한국기반의 수화 데이터셋
+	4. 음식
+		- https://www.kci.go.kr/kciportal/ci/sereArticleSearch/ciSereArtiView.kci?sereArticleSearchBean.artiId=ART002141098
+		- 빅데이터 기반 맛 형용사 감성사전을 통한 음식 추천 시스템
+		- 음식의 맛을 수치화하는 논문
+		
+2. 이슈파악
+	1. 안전모
+		- 일반 모자 구분이 가능한지 파악 필요
+		- 데이터셋 파악 필요
+	2. 민원파악
+		- 데이터셋 파악 필요
+	3. 수화
+		- 2.5TB 이상의 큰 용량
+		- 수화 영상 제작이 요구 될 가능성 존재
+	4. 음식
+		- 크롤링
+			- 구글 검색
+				- 분류 된 음식 데이터 셋을 활용하여 검색어 선정
+				- 검색 된 사진이 그 음식을 설명하고 있는지에 대한 불확실성 존재(무시 가능할 수준일 것으로 예측됨)
+			- 모두의 레시피 
+				- 크롤링한 사진이 명확하게 해당 음식을 설명하고 있음
+				- 음식명을 사람이 직접 적는 것이기 때문에 카테고리 분류를 재실시해야 할 가능성이 존재
+		- 크로핑
+			- 트랜스퍼 러닝 모델 서치
+			- 군집 분석을 통해 사진의 메인 메뉴 중심점 도출 및 도출 된 중심성을 기준으로 크로핑
+			- 사진의 정중앙을 기준으로 크로핑
+		- 형태소분석
+			- https://scienceon.kisti.re.kr/commons/util/originalView.do?cn=JAKO201833469090754&oCn=JAKO201833469090754&dbt=JAKO&journal=NJOU00560240
+			- Word2Vec을 활용한 맛표현 형용사 유사도 측정 및 분류
+		
+3. 기타
+	- 식단 데이터 베이스 https://www.naas.go.kr/01_commu/Commu_Minwon.do?menu_code=0&tg=5&mmode=21
