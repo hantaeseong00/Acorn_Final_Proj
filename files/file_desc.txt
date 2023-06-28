@@ -1,8 +1,0 @@
-db_menus.txt				# 식품영양성분DB 메뉴 목록
-db_bracket_menus.txt		# 식품영양성분DB 중복 된 메뉴 목록(선택 필요)
-
-menu_unique.txt				# 학교급식정보 크롤링 메뉴 목록(중복제거)
-
-include_db_menus.txt		# 식품영양성분DB 메뉴 중 학교급식정보 메뉴에서 검출 된 목록
-not_include_db_menus.txt	# 식품영양성분DB 메뉴 중 학교급식정보 메뉴에서 검출 되지 않은 목록
-remain_unique_menus.txt		# 식품영양성분DB 메뉴와 매칭 되지 않은 학교급식정보 메뉴 목록
