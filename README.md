@@ -25,37 +25,37 @@
 
 ## 1. 제작 기간 & 참여 인원
 - 2023.06.20 ~ 2023.07.12
-#### '김도연'
+#### `김도연`
   - 이메일: 
   - 깃헙: https://github.com/kmdn998
   - 역할1
   - 역할2
-#### '김정숙'
+#### `김정숙`
   - 이메일: 
   - 깃헙: https://github.com/rlajs
   - 역할1
   - 역할2
-#### '김호탁'
+#### `김호탁`
   - 이메일: 
   - 깃헙: https://github.com/katohmik
   - 역할1
   - 역할2
-#### '이준규'
+#### `이준규`
   - 이메일: 
   - 깃헙: https://github.com/kkyukkyu99
   - 역할1
   - 역할2
-#### '정상윤'
+#### `정상윤`
   - 이메일: 
   - 깃헙: https://github.com/jangsangyoon13/
   - 역할1
   - 역할2
-#### '정구열'
+#### `정구열`
   - 이메일: 
   - 깃헙: https://github.com/zzang910/
   - 역할1
   - 역할2
-#### '한태성'
+#### `한태성`
   - 이메일: hantaeseong4@naver.com
   - 깃헙: https://github.com/hantaeseong00/
   - 역할1
