@@ -3,12 +3,6 @@
 
 </br>
 
-## :pushpin: Contact
->이메일: 
->깃헙: https://github.com/hantaeseong00/
-
-</br>
-
 ## :pushpin: Projects
 ### 1. [...](https://github.com/hantaeseong00/Acorn_Final_Proj)
 >
@@ -23,7 +17,7 @@
 
 ---
 
-# :pushpin: goQuality
+# :pushpin: ...
 >머신러닝과 CNN을 활용하여 이미지 분류 및 영양소 분석을 통한 반찬 예측 및 메뉴 추천 시스템 (팀 프로젝트)  
 >URL
 
@@ -33,32 +27,32 @@
 - 2023.06.20 ~ 2023.07.12
 #### '김도연'
   - 이메일: 
-  - 깃헙: https://github.com/hantaeseong00/
+  - 깃헙: https://github.com/kmdn998
   - 역할1
   - 역할2
 #### '김정숙'
   - 이메일: 
-  - 깃헙: https://github.com/hantaeseong00/
+  - 깃헙: https://github.com/rlajs
   - 역할1
   - 역할2
 #### '김호탁'
   - 이메일: 
-  - 깃헙: https://github.com/hantaeseong00/
+  - 깃헙: https://github.com/katohmik
   - 역할1
   - 역할2
 #### '이준규'
   - 이메일: 
-  - 깃헙: https://github.com/hantaeseong00/
+  - 깃헙: https://github.com/kkyukkyu99
   - 역할1
   - 역할2
 #### '정상윤'
   - 이메일: 
-  - 깃헙: https://github.com/hantaeseong00/
+  - 깃헙: https://github.com/jangsangyoon13/
   - 역할1
   - 역할2
 #### '정구열'
   - 이메일: 
-  - 깃헙: https://github.com/hantaeseong00/
+  - 깃헙: https://github.com/zzang910/
   - 역할1
   - 역할2
 #### '한태성'
@@ -99,4 +93,4 @@
 </br>
 
 ## 3. Project Architecture
-![](./files/img/Acon_Fin_Proj_Architecture.png)
+![](./Files/img/Acon_Fin_Proj_Architecture.png)
