@@ -29,46 +29,46 @@
 ---
 
 #### `김도연`
->이메일: 
->깃헙: https://github.com/kmdn998   
->역할1   
->역할2   
+>이메일: <br>
+>깃헙: https://github.com/kmdn998 <br>  
+>역할1   <br>
+>역할2   <br>
 
 #### `김정숙`
->이메일: 
->깃헙: https://github.com/rlajs   
->역할1   
->역할2   
+>이메일: <br>
+>깃헙: https://github.com/rlajs   <br>
+>역할1   <br>
+>역할2   <br>
 
 #### `김호탁`
 >이메일: 
->깃헙: https://github.com/katohmik
->역할1
->역할2
+>깃헙: https://github.com/katohmik<br>
+>역할1<br>
+>역할2<br>
 
 #### `이준규`
->이메일: 
->깃헙: https://github.com/kkyukkyu99
->역할1
->역할2
+>이메일: <br>
+>깃헙: https://github.com/kkyukkyu99<br>
+>역할1<br>
+>역할2<br>
 
 #### `정상윤`
->이메일: 
->깃헙: https://github.com/jangsangyoon13/
->역할1
->역할2
+>이메일: <br>
+>깃헙: https://github.com/jangsangyoon13/<br>
+>역할1<br>
+>역할2<br>
 
 #### `정구열`
->이메일: 
->깃헙: https://github.com/zzang910/
->역할1
->역할2
+>이메일: <br>
+>깃헙: https://github.com/zzang910/<br>
+>역할1<br>
+>역할2<br>
 
 #### `한태성`
->이메일: hantaeseong4@naver.com
->깃헙: https://github.com/hantaeseong00/
->역할1
->역할2
+>이메일: hantaeseong4@naver.com<br>
+>깃헙: https://github.com/hantaeseong00/<br>
+>역할1<br>
+>역할2<br>
 
 ---
 
@@ -84,18 +84,21 @@
 ---
 
 #### `활용 기술`
->데이터 분석 라이브러리
-	- pandas, numpy
-	- tensorflow
-	- google.colab,
-	- apriori, fpgrowth
->웹 크롤링 라이브러리
-	- Beautiful Soup, Selenium,	Requests
->시각화
-	- matplotlib, seaborn
->통계 및 분석 기법
-	- CNN
-	- 연관 분석
+>데이터 분석 라이브러리   <br>
+	- pandas, numpy   <br>
+	- tensorflow   <br>
+	- google.colab   <br>
+	- apriori, fpgrowth   <br>
+	
+>웹 크롤링 라이브러리   <br>
+	- Beautiful Soup, Selenium,	Requests    <br>
+	
+>시각화<br>
+	- matplotlib, seaborn   <br>
+	
+>통계 및 분석 기법   <br>
+	- CNN   <br>
+	- 연관 분석   <br>
 
 ---
 
