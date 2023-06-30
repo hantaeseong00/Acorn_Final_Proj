@@ -1,0 +1,19 @@
+드롭아웃, 벨리데이션스플릿, 히든레이어, 러닝레이트, 덴스
+
+파인튜닝(4차 합본)
+한 모델을 사용해서 파인튜닝
+
+28배 4차합본 -> 97
+
+MobileNet
+1024*3, 1e-5, epochs=15, early stopping(X), running time(걸린 시간)
+2048*3, 1e-5, epochs=15, early stopping(X), running time(걸린 시간)
+4096*3, 1e-5, epochs=15, early stopping(X), running time(걸린 시간)
+
+
+1024*2, 1e-5, epochs=15, early stopping(X), running time(걸린 시간)
+1024*4, 1e-5, epochs=15, early stopping(X), running time(걸린 시간)
+
+1024*3, 5e-5, epochs=15, early stopping(X), running time(걸린 시간)
+1024*3, 1e-4, epochs=15, early stopping(X), running time(걸린 시간)
+
