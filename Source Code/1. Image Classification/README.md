@@ -66,7 +66,7 @@
 </br>
 
 ### 2.6. Change learning rate value to 5e-5
-- Model Architecture: MobileNet - F - D(8)
+- Model Architecture: MobileNet - F - D(1024) - D(1024) - D(1024)
 - Learning Rate: 5e-5
 ![](./graph/6.png)
 - Accuracy : 0.9537
@@ -75,7 +75,7 @@
 </br>
 
 ### 2.7. Change learning rate value to 2e-4
-- Model Architecture: MobileNet - F - D(8)
+- Model Architecture: MobileNet - F - D(1024) - D(1024) - D(1024)
 - Learning Rate: 2e-4
 ![](./Graph/7.png)
 - Accuracy : 0.9654
