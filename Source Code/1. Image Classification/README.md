@@ -68,7 +68,7 @@
 ### 2.6. Change learning rate value to 5e-5
 - Model Architecture: MobileNet - F - D(1024) - D(1024) - D(1024)
 - Learning Rate: 5e-5
-![](./graph/6.png)
+![](./Graph/6.png)
 - Accuracy : 0.9537
 - Learning Time : 23425362.471 ms
 
@@ -85,7 +85,7 @@
 
 ## 3. The result of MobileNet fine-tuning
 
-![](./Graph/The_result_of_MobileNet_fine_tuning.png)
+![](./Graph/result.png)
 
 | Model | Hidden Layer | Dense Count | Learning Rate | Accuracy | Learning Time(ms) | 
 | :-- | :-: | :-: | :-: | :-: | :-: |
