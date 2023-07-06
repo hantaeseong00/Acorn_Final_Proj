@@ -29,39 +29,39 @@
 ---
 
 #### `김도연`
->이메일: <br>
+>이메일: doyeon7507@gmail.com<br>
 >깃헙: https://github.com/kmdn998 <br>  
->역할1   <br>
+>프런트엔드<br>
 >역할2   <br>
 
 #### `김정숙`
 >이메일: <br>
 >깃헙: https://github.com/rlajs   <br>
->역할1   <br>
->역할2   <br>
-
-#### `김호탁`
->이메일: 
->깃헙: https://github.com/katohmik<br>
->역할1<br>
+>연관분석<br>
 >역할2<br>
 
-#### `이준규`
+#### `김호탁`
 >이메일: <br>
+>깃헙: https://github.com/katohmik<br>
+>군집분석<br>
+>데이터시각화<br>
+
+#### `이준규`
+>이메일: ljk9707@naver.com<br>
 >깃헙: https://github.com/kkyukkyu99<br>
->역할1<br>
+>군집분석<br>
 >역할2<br>
 
 #### `정상윤`
->이메일: <br>
+>이메일: jangapp21@gmail.com<br>
 >깃헙: https://github.com/jangsangyoon13/<br>
->역할1<br>
+>DB설계<br>
 >역할2<br>
 
 #### `정구열`
->이메일: <br>
+>이메일: yeol512@nate.com<br>
 >깃헙: https://github.com/zzang910/<br>
->역할1<br>
+>프런트엔드<br>
 >역할2<br>
 
 #### `한태성`
