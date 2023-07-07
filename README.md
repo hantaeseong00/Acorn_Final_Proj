@@ -177,6 +177,8 @@
 ![](https://github.com/hantaeseong00/Acorn_Final_Proj/blob/main/Source%20Code/2.%20Side%20Dish%20Prediction/Graph/result.png?raw=true)
 
 ### [6.3. Dinner Recommendation](https://github.com/hantaeseong00/Acorn_Final_Proj/tree/main/Source%20Code/3.%20Dinner%20Recommendation)
+	
+![](https://github.com/hantaeseong00/Acorn_Final_Proj/blob/main/Source%20Code/2.%20Side%20Dish%20Prediction/Graph/result.png?raw=true)
 
 ### [6.4. Prototype Development](https://github.com/hantaeseong00/Acorn_Final_Proj/tree/main/Source%20Code/3.%20Dinner%20Recommendation)
 
