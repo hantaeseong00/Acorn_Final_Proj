@@ -32,43 +32,43 @@
 >이메일: doyeon7507@gmail.com<br>
 >깃헙: https://github.com/kmdn998 <br>  
 >프런트엔드<br>
->역할2   <br>
+>기능구현<br>
 
 #### `김정숙`
 >이메일: <br>
->깃헙: https://github.com/rlajs   <br>
+>깃헙: https://github.com/rlajs<br>
+>반찬예측알고리즘<br>
 >연관분석<br>
->역할2<br>
 
 #### `김호탁`
 >이메일: <br>
 >깃헙: https://github.com/katohmik<br>
+>저녁추천알고리즘<br>
 >군집분석<br>
->데이터시각화<br>
 
 #### `이준규`
 >이메일: ljk9707@naver.com<br>
 >깃헙: https://github.com/kkyukkyu99<br>
->군집분석<br>
->역할2<br>
+>저녁추천알고리즘<br>
+>연관분석 및 연관분석 결과 통합<br>
 
 #### `정상윤`
 >이메일: jangapp21@gmail.com<br>
 >깃헙: https://github.com/jangsangyoon13/<br>
+>백엔드<br>
 >DB설계<br>
->역할2<br>
 
 #### `정구열`
 >이메일: yeol512@nate.com<br>
 >깃헙: https://github.com/zzang910/<br>
 >프런트엔드<br>
->역할2<br>
+>화면설계<br>
 
 #### `한태성`
 >이메일: hantaeseong4@naver.com<br>
 >깃헙: https://github.com/hantaeseong00/<br>
->역할1<br>
->역할2<br>
+>팀장<br>
+>총괄<br>
 
 ---
 
@@ -81,6 +81,12 @@
 >NVIDIA-SMI 525.85.12
 >CUDA Version: 12.0
 
+#### `웹`
+>
+>
+>
+>
+>
 ---
 
 #### `활용 기술`
@@ -89,9 +95,10 @@
 	- tensorflow   <br>
 	- google.colab   <br>
 	- apriori, fpgrowth   <br>
+	- K-Means, DBSCAN   <br>
 	
 >웹 크롤링 라이브러리   <br>
-	- Beautiful Soup, Selenium,	Requests    <br>
+	- Beautiful Soup, Selenium,	Requests   <br>
 	
 >시각화<br>
 	- matplotlib, seaborn   <br>
@@ -99,10 +106,16 @@
 >통계 및 분석 기법   <br>
 	- CNN   <br>
 	- 연관 분석   <br>
+	- 군집 분석   <br>
 
 ---
 
 ## 3. Project Architecture
 ![](./Files/img/Acon_Fin_Proj_Architecture.png)
+
+---
+
+## 4. ERD
+![](./Files/img/Acon_Fin_Proj_ERD.png)
 
 ---

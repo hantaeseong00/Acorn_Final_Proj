@@ -3,14 +3,13 @@
 >https://go-quality.dev  
 
 ## 1. 소스코드(Colab)
-- [KaggleProject-COVID-19 Radiography.ipynb](https://colab.research.google.com/drive/1L6PIqXr90Z5dmQ6rOFfv8pmAqIsb8Zs5#scrollTo=YYHdRwx4S1Is)
-- [KaggleProject-COVID-19 Radiography.ipynb](https://colab.research.google.com/drive/1L6PIqXr90Z5dmQ6rOFfv8pmAqIsb8Zs5#scrollTo=YYHdRwx4S1Is)
-- [KaggleProject-COVID-19 Radiography.ipynb](https://colab.research.google.com/drive/1L6PIqXr90Z5dmQ6rOFfv8pmAqIsb8Zs5#scrollTo=YYHdRwx4S1Is)
-- [KaggleProject-COVID-19 Radiography.ipynb](https://colab.research.google.com/drive/1L6PIqXr90Z5dmQ6rOFfv8pmAqIsb8Zs5#scrollTo=YYHdRwx4S1Is)
-- [KaggleProject-COVID-19 Radiography.ipynb](https://colab.research.google.com/drive/1L6PIqXr90Z5dmQ6rOFfv8pmAqIsb8Zs5#scrollTo=YYHdRwx4S1Is)
-- [KaggleProject-COVID-19 Radiography.ipynb](https://colab.research.google.com/drive/1L6PIqXr90Z5dmQ6rOFfv8pmAqIsb8Zs5#scrollTo=YYHdRwx4S1Is)
-- [KaggleProject-COVID-19 Radiography.ipynb](https://colab.research.google.com/drive/1L6PIqXr90Z5dmQ6rOFfv8pmAqIsb8Zs5#scrollTo=YYHdRwx4S1Is)
-- [KaggleProject-COVID-19 Radiography.ipynb](https://colab.research.google.com/drive/1L6PIqXr90Z5dmQ6rOFfv8pmAqIsb8Zs5#scrollTo=YYHdRwx4S1Is)
+- [MobileNet - F - D(1024) - D(1024) - D(1024)](https://colab.research.google.com/drive/1FOb6jYRPHf9WfLKtwmKr4e6N2yf1nPkA#scrollTo=Cime78Orz_sI)
+- [MobileNet - F - D(2048) - D(2048) - D(2048)](https://colab.research.google.com/drive/1JgyoIV4XvudjFiwJsvA3oxuAcj5zXgpx?usp=sharing)
+- [MobileNet - F - D(4098) - D(4098) - D(4098)](https://colab.research.google.com/drive/1L6PIqXr90Z5dmQ6rOFfv8pmAqIsb8Zs5#scrollTo=YYHdRwx4S1Is)
+- [MobileNet - F - D(1024) - D(1024)](https://colab.research.google.com/drive/1DAGr0S-HszSMFu0DPSopjLYLkABPOdCb?usp=sharing)
+- [MobileNet - F - D(1024) - D(1024) - D(1024) - D(1024)](https://colab.research.google.com/drive/1KO6Y9pTuAUdZbjHawuVbdKs59URhUnx7?usp=sharing)
+- [MobileNet - F - D(1024) - D(1024) - D(1024)](https://colab.research.google.com/drive/1L6PIqXr90Z5dmQ6rOFfv8pmAqIsb8Zs5#scrollTo=YYHdRwx4S1Is)
+- [MobileNet - F - D(1024) - D(1024) - D(1024)](https://colab.research.google.com/drive/1L6PIqXr90Z5dmQ6rOFfv8pmAqIsb8Zs5#scrollTo=YYHdRwx4S1Is)
 
 </br>
 
