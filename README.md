@@ -130,7 +130,7 @@
 
 ---
 
-## 6. Project Result
+## 6. Project Result & Visualization
 >
 >개발 기간: 2023.06.20 ~ 2023.07.12
 >  
@@ -146,6 +146,7 @@
 
 ### [6.1. Image Classification](https://github.com/hantaeseong00/Acorn_Final_Proj/tree/main/Source%20Code/1.%20Image%20Classification)
 
+#### `Transfer Learning Model(MobileNet) Fine-Tuning Visualization`
 ![](https://github.com/hantaeseong00/Acorn_Final_Proj/blob/main/Source%20Code/1.%20Image%20Classification/Graph/result.png?raw=true)
 
 | Model | Hidden Layer | Dense Count | Learning Rate | Accuracy | Learning Time(ms) | 
@@ -160,7 +161,7 @@
 |  |  |  |  |  |  |
 | **Change learning rate value to 5e-5** | 3 | 1024 | 5e-5 | 95.37% | 23425362 |
 | **Change learning rate value to 2e-4** | 3 | 1024 | **2e-4** | **96.54%** | **28082135** |
-
+   
 >덴스 수가 증가함에 따라 정확도가 증가하는 경향을 관찰할 수 있었습니다.   <br>
 >히든 레이어의 수가 증가함에 따라 정확도가 감소하는 경향을 관찰하였습니다.    <br>
 >러닝 레이트가 증가함에 따라 정확도가 증가하는 경향을 관찰할 수 있었습니다.   <br>
@@ -169,6 +170,7 @@
 
 ### [6.2. Side Dish Prediction](https://github.com/hantaeseong00/Acorn_Final_Proj/tree/main/Source%20Code/2.%20Side%20Dish%20Prediction)
 
+#### `Comparison of Apriori and FP-Growth Models.`
 |  | **Apriori** | **FP-Growth** |
 | :-- | :-- | :-- |
 | **기본 개념** | 빈발 아이템 집합(frequent itemset)을 탐색하는 방법 | 아이템 집합을 압축하여 트리 형태로 구성하는 방법 |
@@ -177,14 +179,32 @@
 |  | - 이론적으로는 **모든 가능한 연관 규칙**을 탐색 | - Apriori보다 더 **빠른 속도**로 빈발 아이템 집합을 생성 |
 |  | - 알고리즘에 의해 생성된 빈발 아이템 집합은 동일하다 | - 빈발 아이템 집합을 압축하여 **메모리 사용량을 줄임** |
 | **단점** | 	- **큰 데이터셋**에 대해서는 **성능이 떨어질 수 있음** | - 알고리즘 이해 및 구현이 **복잡**할 수 있음 |
-|  | 	- 후보 아이템 집합 생성과정에서 **비효율적**일 수 있음 |  |
-		
+|  | 	- 후보 아이템 집합 생성과정에서 **비효율적**일 수 있음 |  |	
+
+---
+
+#### `Comparison of Confidence and Conviction.`
+|  | **Confidence(신뢰도)** | **Conviction(확신도)** |
+| :-- | :-- | :-- |
+| **정의** | 조건부 확률로서, 조건 아이템이 주어졌을 때 결과 아이템이 발생할 확률 | 규칙의 신뢰도에 대한 척도로서, 조건 아이템이 주어졌을 때 결과 아이템이 발생하는 빈도를 랜덤 모델의 예측 빈도로 나눈 값 |
+| **계산 방법** | (조건 아이템과 결과 아이템이 동시에 발생하는 빈도) / (조건 아이템이 발생하는 빈도) | (1 - Support(결과 아이템의 지지도)) / (1 - Confidence(규칙의 신뢰도)) |
+| **범위** | 	0부터 1까지의 값 | 0부터 무한대의 양수 값 |
+| **해석** | 조건 아이템이 발생할 때 결과 아이템이 발생할 확률을 백분율로 나타냄 | 조건 아이템과 결과 아이템이 독립적일 때의 예상되는 발생 빈도로서, 1보다 크면 의존성이 강함 |
+| **활용** | 규칙의 **강도**와 **신뢰성**을 평가함 | 규칙의 **예측력**과 **독립성**을 평가함 |
+| **관련성 분석 방향** | 조건 아이템에서 결과 아이템으로의 관련성을 분석함 | 결과 아이템에서 조건 아이템으로의 관련성을 분석함 |
+| **값의 해석** | 값이 높을수록 조건 아이템과 결과 아이템 간의 **관련성**이 높음 | 값이 1에 가까울수록 조건 아이템과 결과 아이템 간의 **독립성**이 높음 |
+| **결합한 규칙의 평가에 활용** | 조건 아이템과 결과 아이템 간의 강한 **관련성**을 가진 규칙을 선택함 | 조건 아이템과 결과 아이템 간의 **독립성**을 가진 규칙을 선택함 |
+	
+---
+
+#### `Side Dish Prediction Algorithm Visualization`
 ![](https://github.com/hantaeseong00/Acorn_Final_Proj/blob/main/Source%20Code/2.%20Side%20Dish%20Prediction/Graph/result.png?raw=true)
 
 ---
 
 ### [6.3. Dinner Recommendation](https://github.com/hantaeseong00/Acorn_Final_Proj/tree/main/Source%20Code/3.%20Dinner%20Recommendation)
 	
+#### `Dinner Recommendation Algorithm Visualization`
 ![](https://github.com/hantaeseong00/Acorn_Final_Proj/blob/main/Source%20Code/3.%20Dinner%20Recommendation/Graph/dbscan_outlier_3d_graph.png?raw=true)
 
 ---
