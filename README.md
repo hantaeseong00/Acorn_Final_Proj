@@ -18,13 +18,13 @@
 >기능구현<br>
 
 #### `김정숙`
->이메일: <br>
+>이메일: js-kim20@naver.com<br>
 >깃헙: https://github.com/rlajs<br>
 >반찬예측알고리즘<br>
 >연관분석<br>
 
 #### `김호탁`
->이메일: <br>
+>이메일: katohmik@gmail.com<br>
 >깃헙: https://github.com/katohmik<br>
 >저녁추천알고리즘<br>
 >군집분석<br>
@@ -35,7 +35,7 @@
 >저녁추천알고리즘<br>
 >연관분석 및 연관분석 결과 통합<br>
 
-#### `정상윤`
+#### `장상윤`
 >이메일: jangapp21@gmail.com<br>
 >깃헙: https://github.com/jangsangyoon13/<br>
 >백엔드<br>
@@ -163,7 +163,15 @@
 >러닝 레이트가 증가함에 따라 정확도가 증가하는 경향을 관찰할 수 있었습니다.   <br>
 
 ### [6.2. Side Dish Prediction](https://github.com/hantaeseong00/Acorn_Final_Proj/tree/main/Source%20Code/2.%20Side%20Dish%20Prediction)
-
+|  | Apriori | FP-Growth | 
+| 기본 개념 | 빈발 아이템 집합(frequent itemset)을 탐색하는 방법 | 아이템 집합을 압축하여 트리 형태로 구성하는 방법 |
+| 아이템 집합 탐색 방법 | **가능한 모든 아이템 조합**을 검사하여 빈발 아이템 집합을 생성 | **FP-트리**를 구축하여 빈발 아이템 집합을 생성 | 
+| **장점** | 	- **직관적**이고 **이해하기 쉬운** 알고리즘 | - Apriori보다 **효율적인 메모리** 사용 | 
+|  | - 이론적으로는 **모든 가능한 연관 규칙**을 탐색 | - Apriori보다 더 **빠른 속도**로 빈발 아이템 집합을 생성 | 
+|  | - 알고리즘에 의해 생성된 빈발 아이템 집합은 동일하다 | - 빈발 아이템 집합을 압축하여 **메모리 사용량을 줄임** | 
+| 단점 | 	- **큰 데이터셋**에 대해서는 **성능이 떨어질 수 있음** | - 알고리즘 이해 및 구현이 **복잡**할 수 있음 | 
+|  | 	- 후보 아이템 집합 생성과정에서 **비효율적**일 수 있음 |  | 
+		
 ### [6.3. Dinner Recommendation](https://github.com/hantaeseong00/Acorn_Final_Proj/tree/main/Source%20Code/3.%20Dinner%20Recommendation)
 
 ### [6.4. Prototype Development](https://github.com/hantaeseong00/Acorn_Final_Proj/tree/main/Source%20Code/3.%20Dinner%20Recommendation)
