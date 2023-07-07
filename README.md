@@ -6,7 +6,7 @@
 
 ---
 
-## 1. 제작 기간 & 역할
+## 1. Project Period & Role
 >제작 기간: 2023.06.20 ~ 2023.07.12   
 
 ---
@@ -55,8 +55,8 @@
 
 ---
 
-## 2. 활용 기술 & 개발 환경
-#### `개발 환경`
+## 2. Development Environment & Utilized Skils
+#### `Development Environment(Back-End)`
 >Python 3.9.13<br>
 >Ubuntu 20.04.6 LTS <br>
 >Intel(R) Xeon(R) CPU @ 2.00GHz<br>
@@ -64,15 +64,18 @@
 >NVIDIA-SMI 525.85.12<br>
 >CUDA Version: 12.0<br>
 
-#### `웹`
->
->
->
->
->
 ---
 
-#### `활용 기술`
+#### `Development Environment(Front-End)`
+>
+>
+>
+>
+>
+
+---
+
+#### `Utilized  Skils`
 >데이터 분석 라이브러리   <br>
 	- pandas, numpy   <br>
 	- tensorflow   <br>
@@ -101,7 +104,7 @@
 
 ---
 
-## 2. 기대효과
+## 2. Expected Results
 >영양 균형 개선, 식단 다양성 증가
 >개인 건강 관리 강화, 영양 문제 인식 증진 및 사회적 영향의 증대
 >영양 균형을 갖춘 맞춤형 식단을 구성하고 건강한 식습관을 형성
@@ -162,6 +165,8 @@
 >히든 레이어의 수가 증가함에 따라 정확도가 감소하는 경향을 관찰하였습니다.    <br>
 >러닝 레이트가 증가함에 따라 정확도가 증가하는 경향을 관찰할 수 있었습니다.   <br>
 
+---
+
 ### [6.2. Side Dish Prediction](https://github.com/hantaeseong00/Acorn_Final_Proj/tree/main/Source%20Code/2.%20Side%20Dish%20Prediction)
 
 |  | **Apriori** | **FP-Growth** |
@@ -176,15 +181,19 @@
 		
 ![](https://github.com/hantaeseong00/Acorn_Final_Proj/blob/main/Source%20Code/2.%20Side%20Dish%20Prediction/Graph/result.png?raw=true)
 
+---
+
 ### [6.3. Dinner Recommendation](https://github.com/hantaeseong00/Acorn_Final_Proj/tree/main/Source%20Code/3.%20Dinner%20Recommendation)
 	
-![](https://github.com/hantaeseong00/Acorn_Final_Proj/blob/main/Source%20Code/2.%20Side%20Dish%20Prediction/Graph/result.png?raw=true)
+![](https://github.com/hantaeseong00/Acorn_Final_Proj/blob/main/Source%20Code/3.%20Dinner%20Recommendation/Graph/DB_scan.png?raw=true)
+
+---
 
 ### [6.4. Prototype Development](https://github.com/hantaeseong00/Acorn_Final_Proj/tree/main/Source%20Code/3.%20Dinner%20Recommendation)
 
 ---
 
-## 7. Reflection
+## 7. Limitations and Compensation Points
 
 #### `영양 불균형 관련 통계 분석 부재`
 >프로젝트에서는 영양 불균형에 대한 통계 분석을 진행하지 못한 점이 아쉬웠습니다. <br>
@@ -215,7 +224,7 @@
 >군집 분석에서 6차원 데이터를 효과적으로 시각화하지 못해 3차원으로만 제한된 점이 아쉽습니다. <br>
 >더 다양한 시각화 방법과 차원 축소 기법을 활용하여 분석 결과를 명확하게 시각화해야 합니다.<br>
 	
-#### `결론`
+#### `Conclusion`
 >프로젝트 진행 과정에서 어려움을 겪었지만, 이를 통해 성장할 수 있었습니다.<br>
 >계속해서 발전하고 더 나은 결과물을 제공하기 위해 노력할 것입니다.<br>
 >한계점을 인식하고 향후 과제에 대한 계획을 세움으로써, 우리는 더 나은 프로젝트를 구현하고자 합니다.<br>
