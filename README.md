@@ -174,7 +174,7 @@
 | **단점** | 	- **큰 데이터셋**에 대해서는 **성능이 떨어질 수 있음** | - 알고리즘 이해 및 구현이 **복잡**할 수 있음 |
 |  | 	- 후보 아이템 집합 생성과정에서 **비효율적**일 수 있음 |  |
 		
-![](https://github.com/hantaeseong00/Acorn_Final_Proj/blob/main/Source%20Code/1.%20Image%20Classification/Graph/result.png?raw=true)
+![](https://github.com/hantaeseong00/Acorn_Final_Proj/blob/main/Source%20Code/2.%20Side%20Dish%20Prediction/Graph/result.png?raw=true)
 
 ### [6.3. Dinner Recommendation](https://github.com/hantaeseong00/Acorn_Final_Proj/tree/main/Source%20Code/3.%20Dinner%20Recommendation)
 
