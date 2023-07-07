@@ -185,7 +185,7 @@
 
 ### [6.3. Dinner Recommendation](https://github.com/hantaeseong00/Acorn_Final_Proj/tree/main/Source%20Code/3.%20Dinner%20Recommendation)
 	
-![](https://github.com/hantaeseong00/Acorn_Final_Proj/blob/main/Source%20Code/3.%20Dinner%20Recommendation/Graph/DB_scan.png?raw=true)
+![](https://github.com/hantaeseong00/Acorn_Final_Proj/blob/main/Source%20Code/3.%20Dinner%20Recommendation/Graph/dbscan_outlier_3d_graph.png?raw=true)
 
 ---
 
