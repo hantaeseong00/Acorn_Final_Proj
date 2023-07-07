@@ -143,7 +143,7 @@
 
 ### [6.1. Image Classification](https://github.com/hantaeseong00/Acorn_Final_Proj/tree/main/Source%20Code/1.%20Image%20Classification)
 
-![]('./Source Code/1. Image Classification/Graph/result.png')
+![](./Source Code/1. Image Classification/Graph/result.png)
 
 | Model | Hidden Layer | Dense Count | Learning Rate | Accuracy | Learning Time(ms) | 
 | :-- | :-: | :-: | :-: | :-: | :-: |
