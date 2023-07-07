@@ -146,7 +146,7 @@
 ![](https://github.com/hantaeseong00/Acorn_Final_Proj/blob/main/Source%20Code/1.%20Image%20Classification/Graph/result.png?raw=true)
 
 | Model | Hidden Layer | Dense Count | Learning Rate | Accuracy | Learning Time(ms) | 
-| :-- | :-: | :-: | :-: | :-: | --: |
+| :-- | :-: | :-: | :-: | :-: | :-: |
 | **Basic** | 3 | 1024 | 2e-5 | 94.88% | 26376814 |
 |  |  |  |  |  |  |
 | **Change dense value to 2048** | 3 | 2048 | 2e-5 | 95.20% | 25686338 |
@@ -165,7 +165,7 @@
 ### [6.2. Side Dish Prediction](https://github.com/hantaeseong00/Acorn_Final_Proj/tree/main/Source%20Code/2.%20Side%20Dish%20Prediction)
 
 |  | **Apriori** | **FP-Growth* |
-| :-- | :-: | --: |
+| :-- | :-- | :-- |
 | **기본 개념** | 빈발 아이템 집합(frequent itemset)을 탐색하는 방법 | 아이템 집합을 압축하여 트리 형태로 구성하는 방법 |
 | **아이템 집합 탐색 방법** | **가능한 모든 아이템 조합**을 검사하여 빈발 아이템 집합을 생성 | **FP-트리**를 구축하여 빈발 아이템 집합을 생성 |
 | **장점** | 	- **직관적**이고 **이해하기 쉬운** 알고리즘 | - Apriori보다 **효율적인 메모리** 사용 |
