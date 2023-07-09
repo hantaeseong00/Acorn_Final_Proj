@@ -92,64 +92,64 @@
 </br>
 
 ### 2.1. Basic
-- Model Architecture: MobileNet - F - D(1024) - D(1024) - D(1024)
-- Learning Rate: 2e-5
-![](./Graph/1.png)   
-- Accuracy : 0.9488
-- Learning Time : 26376814.830 ms
+- Model Architecture: MobileNet - F - D(1024) - D(1024) - D(1024)<BR>
+- Learning Rate: 2e-5<BR>
+![](./Graph/1.png)   <BR>
+- Accuracy : 0.9488<BR>
+- Learning Time : 26376814.830 ms<BR>
 </br>
 
 ### 2.2. Change dense value to 2048
-- Model Architecture: MobileNet - F - D(2048) - D(2048) - D(2048)
-- Learning Rate: 2e-5
-![](./Graph/2.png)   
-- Accuracy : 0.9520
-- Learning Time : 25686338.559 ms
+- Model Architecture: MobileNet - F - D(2048) - D(2048) - D(2048)<BR>
+- Learning Rate: 2e-5<BR>
+![](./Graph/2.png)   <BR>
+- Accuracy : 0.9520<BR>
+- Learning Time : 25686338.559 ms<BR>
 
 </br>
 
 ### 2.3. Change dense value to 4098
-- Model Architecture: MobileNet - F - D(4098) - D(4098) - D(4098)
-- Learning Rate: 2e-5
-![](./Graph/3.png)   
-- Accuracy : 0.9523
-- Learning Time : 25535377.915 ms
+- Model Architecture: MobileNet - F - D(4098) - D(4098) - D(4098)<BR>
+- Learning Rate: 2e-5<BR>
+![](./Graph/3.png)   <BR>
+- Accuracy : 0.9523<BR>
+- Learning Time : 25535377.915 ms<BR>
 
 </br>
 
 ### 2.4. Change the number of hidden layers to 2
-- Model Architecture: MobileNet - F - D(1024) - D(1024)
-- Learning Rate: 2e-5
-![](./Graph/4.png)   
-- Accuracy : 0.9520
-- Learning Time : 20395924.553 ms
+- Model Architecture: MobileNet - F - D(1024) - D(1024)<BR>
+- Learning Rate: 2e-5<BR>
+![](./Graph/4.png)   <BR>
+- Accuracy : 0.9520<BR>
+- Learning Time : 20395924.553 ms<BR>
 
 </br>
 
 ### 2.5. Change the number of hidden layers to 4
-- Model Architecture: MobileNet - F - D(1024) - D(1024) - D(1024) - D(1024)
-- Learning Rate: 2e-5
-![](./Graph/5.png)   
-- Accuracy : 0.9365
-- Learning Time : 20511320.952 ms
+- Model Architecture: MobileNet - F - D(1024) - D(1024) - D(1024) - D(1024)<BR>
+- Learning Rate: 2e-5<BR>
+![](./Graph/5.png)   <BR>
+- Accuracy : 0.9365<BR>
+- Learning Time : 20511320.952 ms<BR>
 
 </br>
 
 ### 2.6. Change learning rate value to 5e-5
-- Model Architecture: MobileNet - F - D(1024) - D(1024) - D(1024)
-- Learning Rate: 5e-5
-![](./Graph/6.png)   
-- Accuracy : 0.9537
-- Learning Time : 23425362.471 ms
+- Model Architecture: MobileNet - F - D(1024) - D(1024) - D(1024)<BR>
+- Learning Rate: 5e-5<BR>
+![](./Graph/6.png)   <BR>
+- Accuracy : 0.9537<BR>
+- Learning Time : 23425362.471 ms<BR>
 
 </br>
 
 ### 2.7. Change learning rate value to 2e-4
-- Model Architecture: MobileNet - F - D(1024) - D(1024) - D(1024)
-- Learning Rate: 2e-4
-![](./Graph/7.png)   
-- Accuracy : 0.9654
-- Learning Time : 28082135.071 ms
+- Model Architecture: MobileNet - F - D(1024) - D(1024) - D(1024)<BR>
+- Learning Rate: 2e-4<BR>
+![](./Graph/7.png)   <BR>
+- Accuracy : 0.9654<BR>
+- Learning Time : 28082135.071 ms<BR>
 
 </br>
 
