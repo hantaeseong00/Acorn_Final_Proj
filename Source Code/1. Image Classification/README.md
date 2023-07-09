@@ -30,7 +30,7 @@
 
 #### `음식 이미지`
 
->[만개의 레시피](https://www.10000recipe.com/)<br>   
+>[만개의 레시피](https://www.10000recipe.com/)<br>
 >[네이버 지도](https://map.naver.com/v5/entry/place)<br>   
 
 ---
@@ -38,19 +38,19 @@
 
 #### `전처리(1차)`
 
-![](./Graph/메뉴카테고리전처리.png)
+<img src="./Graph/메뉴카테고리전처리.png" height="250px">
 
 ---
 
 #### `전처리(2차)`
 
-![](./Graph/메뉴카테고리전처리2차.png)
+<img src="./Graph/메뉴카테고리전처리.png" height="250px">
 
 ---
 
 #### `전처리(3차)`
 
-![](./Graph/메뉴카테고리전처리3차.png)
+<img src="./Graph/메뉴카테고리전처리.png" height="250px">
 
 ---
 
