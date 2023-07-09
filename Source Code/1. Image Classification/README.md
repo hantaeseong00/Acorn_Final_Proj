@@ -33,28 +33,45 @@
 >[만개의 레시피](https://www.10000recipe.com/)<br>
 >[네이버 지도](https://map.naver.com/v5/entry/place)<br>   
 
+![](./Graph/수집된이미지.png)
+
 ---
 
+### 2.1. 전처리
 
 #### `전처리(1차)`
 
-<center><img src="./Graph/메뉴카테고리전처리.png" height="250px"></center>
+![](./Graph/./Graph/메뉴카테고리전처리.png)
+
+|  | **원본** | **1차 전처리** |
+| :-- | :-- | :-- |
+| **컬럼수** | 100 | 1 |
+| **메뉴수** | 7703 | 72 |
+| 비고 |  | - 지역/제조사 컬럼에 존재하는 모든 카테고리 중 **전국(대표)** 컬럼 **선택** |
+|  |  | - 기본 **밥** 및 **반찬** 또는 **제과제빵**으로 보이는 메뉴 **제외** |
+|  |  | - 추가적인 논의를 통해 **72개 메뉴 선정** |
 
 ---
 
 #### `전처리(2차)`
 
-<center><img src="./Graph/메뉴카테고리전처리2차.png" height="250px"></center>
+![](./Graph/./Graph/메뉴카테고리전처리2차.png)
+
+![](./Graph/./Graph/카테고리통합비교.png)
+
+|  | **1차 전처리** | **2차 전처리** |
+| :-- | :-- | :-- |
+| **컬럼수** | 1 | 1 |
+| **메뉴수** | 72 | 59 |
+| 비고 |  | - **1차 이미지 검수**를 위해 각각 **10~12 카테고리 분배** |
+|  |  | - 1차 이미지 검수 이후, 각자에게 분배 된 이미지 카테고리를 기준으로 CNN모델 생성 및 평가**()** |
+|  |  | - 이미지 카테고리 통합 이후, 통합 된 카테고리를 기준으로 CNN모델 생성 및 평가**()** |
+|  |  | - 성능 저하로 인한 **2차 이미지 검수** 실시 최종 **59개 메뉴 선정** |
+|  |  | - 최종 카테고리를 기준으로 CNN모델 생성 및 평가**(90%)** |
 
 ---
 
-#### `전처리(3차)`
-
-<center><img src="./Graph/메뉴카테고리전처리3차.png" height="250px"></center>
-
----
-
-#### `이미지 증강`
+#### `이미지 증강(OpenCV)`
 
 ![](./Graph/이미지증강.png)
 
@@ -70,7 +87,7 @@
 ### 2.1. Basic
 - Model Architecture: MobileNet - F - D(1024) - D(1024) - D(1024)
 - Learning Rate: 2e-5
-![](./Graph/1.png)
+![](./Graph/1.png)   
 - Accuracy : 0.9488
 - Learning Time : 26376814.830 ms
 </br>
@@ -78,7 +95,7 @@
 ### 2.2. Change dense value to 2048
 - Model Architecture: MobileNet - F - D(2048) - D(2048) - D(2048)
 - Learning Rate: 2e-5
-![](./Graph/2.png)
+![](./Graph/2.png)   
 - Accuracy : 0.9520
 - Learning Time : 25686338.559 ms
 
@@ -87,7 +104,7 @@
 ### 2.3. Change dense value to 4098
 - Model Architecture: MobileNet - F - D(4098) - D(4098) - D(4098)
 - Learning Rate: 2e-5
-![](./Graph/3.png)
+![](./Graph/3.png)   
 - Accuracy : 0.9523
 - Learning Time : 25535377.915 ms
 
@@ -96,7 +113,7 @@
 ### 2.4. Change the number of hidden layers to 2
 - Model Architecture: MobileNet - F - D(1024) - D(1024)
 - Learning Rate: 2e-5
-![](./Graph/4.png)
+![](./Graph/4.png)   
 - Accuracy : 0.9520
 - Learning Time : 20395924.553 ms
 
@@ -105,7 +122,7 @@
 ### 2.5. Change the number of hidden layers to 4
 - Model Architecture: MobileNet - F - D(1024) - D(1024) - D(1024) - D(1024)
 - Learning Rate: 2e-5
-![](./Graph/5.png)
+![](./Graph/5.png)   
 - Accuracy : 0.9365
 - Learning Time : 20511320.952 ms
 
@@ -114,7 +131,7 @@
 ### 2.6. Change learning rate value to 5e-5
 - Model Architecture: MobileNet - F - D(1024) - D(1024) - D(1024)
 - Learning Rate: 5e-5
-![](./Graph/6.png)
+![](./Graph/6.png)   
 - Accuracy : 0.9537
 - Learning Time : 23425362.471 ms
 
@@ -123,7 +140,7 @@
 ### 2.7. Change learning rate value to 2e-4
 - Model Architecture: MobileNet - F - D(1024) - D(1024) - D(1024)
 - Learning Rate: 2e-4
-![](./Graph/7.png)
+![](./Graph/7.png)   
 - Accuracy : 0.9654
 - Learning Time : 28082135.071 ms
 
