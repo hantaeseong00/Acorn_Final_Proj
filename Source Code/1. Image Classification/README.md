@@ -5,22 +5,9 @@
 
 ---
 
-## 1. 소스코드(Colab)
-- [MobileNet - F - D(1024) - D(1024) - D(1024)](https://colab.research.google.com/drive/1FOb6jYRPHf9WfLKtwmKr4e6N2yf1nPkA#scrollTo=Cime78Orz_sI)
-- [MobileNet - F - D(2048) - D(2048) - D(2048)](https://colab.research.google.com/drive/1JgyoIV4XvudjFiwJsvA3oxuAcj5zXgpx?usp=sharing)
-- [MobileNet - F - D(4098) - D(4098) - D(4098)](https://colab.research.google.com/drive/1L6PIqXr90Z5dmQ6rOFfv8pmAqIsb8Zs5#scrollTo=YYHdRwx4S1Is)
-- [MobileNet - F - D(1024) - D(1024)](https://colab.research.google.com/drive/1DAGr0S-HszSMFu0DPSopjLYLkABPOdCb?usp=sharing)
-- [MobileNet - F - D(1024) - D(1024) - D(1024) - D(1024)](https://colab.research.google.com/drive/1KO6Y9pTuAUdZbjHawuVbdKs59URhUnx7?usp=sharing)
-- [MobileNet - F - D(1024) - D(1024) - D(1024)](https://colab.research.google.com/drive/1L6PIqXr90Z5dmQ6rOFfv8pmAqIsb8Zs5#scrollTo=YYHdRwx4S1Is)
-- [MobileNet - F - D(1024) - D(1024) - D(1024)](https://colab.research.google.com/drive/1L6PIqXr90Z5dmQ6rOFfv8pmAqIsb8Zs5#scrollTo=YYHdRwx4S1Is)
+## 1. 데이터 수집 및 전처리
 
-</br>
-
----
-
-## 2. 데이터 수집 및 전처리
-
-### 2.1. 데이터 수집
+### 1.1. 데이터 수집
 
 #### `음식 카테고리`
 
@@ -37,7 +24,7 @@
 
 ---
 
-### 2.1. 전처리
+### 1.2. 전처리
 
 #### `전처리(1차)`
 
@@ -84,14 +71,29 @@
 
 ---
 
-## 2. MobileNet 기본 세팅
+## 2. Fine-tuning
+
+### 2.1. 소스코드(Colab)
+- [MobileNet - F - D(1024) - D(1024) - D(1024)](https://colab.research.google.com/drive/1FOb6jYRPHf9WfLKtwmKr4e6N2yf1nPkA#scrollTo=Cime78Orz_sI)
+- [MobileNet - F - D(2048) - D(2048) - D(2048)](https://colab.research.google.com/drive/1JgyoIV4XvudjFiwJsvA3oxuAcj5zXgpx?usp=sharing)
+- [MobileNet - F - D(4098) - D(4098) - D(4098)](https://colab.research.google.com/drive/1L6PIqXr90Z5dmQ6rOFfv8pmAqIsb8Zs5#scrollTo=YYHdRwx4S1Is)
+- [MobileNet - F - D(1024) - D(1024)](https://colab.research.google.com/drive/1DAGr0S-HszSMFu0DPSopjLYLkABPOdCb?usp=sharing)
+- [MobileNet - F - D(1024) - D(1024) - D(1024) - D(1024)](https://colab.research.google.com/drive/1KO6Y9pTuAUdZbjHawuVbdKs59URhUnx7?usp=sharing)
+- [MobileNet - F - D(1024) - D(1024) - D(1024)](https://colab.research.google.com/drive/1L6PIqXr90Z5dmQ6rOFfv8pmAqIsb8Zs5#scrollTo=YYHdRwx4S1Is)
+- [MobileNet - F - D(1024) - D(1024) - D(1024)](https://colab.research.google.com/drive/1L6PIqXr90Z5dmQ6rOFfv8pmAqIsb8Zs5#scrollTo=YYHdRwx4S1Is)
+
+</br>
+
+---
+
+### 2.2. MobileNet 기본 세팅
 - weight: imagenet
 - Dropout: 0.5
 - optimizer: Adam
 
 </br>
 
-### 2.1. Basic
+### 2.3. Basic
 - Model Architecture: MobileNet - F - D(1024) - D(1024) - D(1024)<BR>
 - Learning Rate: 2e-5<BR>
 ![](./Graph/1.png)   <BR>
@@ -99,7 +101,7 @@
 - Learning Time : 26376814.830 ms<BR>
 </br>
 
-### 2.2. Change dense value to 2048
+### 2.4. Change dense value to 2048
 - Model Architecture: MobileNet - F - D(2048) - D(2048) - D(2048)<BR>
 - Learning Rate: 2e-5<BR>
 ![](./Graph/2.png)   <BR>
@@ -108,7 +110,7 @@
 
 </br>
 
-### 2.3. Change dense value to 4098
+### 2.5. Change dense value to 4098
 - Model Architecture: MobileNet - F - D(4098) - D(4098) - D(4098)<BR>
 - Learning Rate: 2e-5<BR>
 ![](./Graph/3.png)   <BR>
@@ -117,7 +119,7 @@
 
 </br>
 
-### 2.4. Change the number of hidden layers to 2
+### 2.6. Change the number of hidden layers to 2
 - Model Architecture: MobileNet - F - D(1024) - D(1024)<BR>
 - Learning Rate: 2e-5<BR>
 ![](./Graph/4.png)   <BR>
@@ -126,7 +128,7 @@
 
 </br>
 
-### 2.5. Change the number of hidden layers to 4
+### 2.7. Change the number of hidden layers to 4
 - Model Architecture: MobileNet - F - D(1024) - D(1024) - D(1024) - D(1024)<BR>
 - Learning Rate: 2e-5<BR>
 ![](./Graph/5.png)   <BR>
@@ -135,7 +137,7 @@
 
 </br>
 
-### 2.6. Change learning rate value to 5e-5
+### 2.8. Change learning rate value to 5e-5
 - Model Architecture: MobileNet - F - D(1024) - D(1024) - D(1024)<BR>
 - Learning Rate: 5e-5<BR>
 ![](./Graph/6.png)   <BR>
@@ -144,7 +146,7 @@
 
 </br>
 
-### 2.7. Change learning rate value to 2e-4
+### 2.9. Change learning rate value to 2e-4
 - Model Architecture: MobileNet - F - D(1024) - D(1024) - D(1024)<BR>
 - Learning Rate: 2e-4<BR>
 ![](./Graph/7.png)   <BR>
