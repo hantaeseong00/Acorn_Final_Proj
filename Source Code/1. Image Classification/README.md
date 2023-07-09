@@ -38,19 +38,19 @@
 
 #### `전처리(1차)`
 
-<img src="./Graph/메뉴카테고리전처리.png" height="250px">
+<center><img src="./Graph/메뉴카테고리전처리.png" height="250px"></center>
 
 ---
 
 #### `전처리(2차)`
 
-<img src="./Graph/메뉴카테고리전처리.png" height="250px">
+<center><img src="./Graph/메뉴카테고리전처리2차.png" height="250px"></center>
 
 ---
 
 #### `전처리(3차)`
 
-<img src="./Graph/메뉴카테고리전처리.png" height="250px">
+<center><img src="./Graph/메뉴카테고리전처리3차.png" height="250px"></center>
 
 ---
 
