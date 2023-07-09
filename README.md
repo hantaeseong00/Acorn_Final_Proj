@@ -1,8 +1,16 @@
 ## :pushpin: Intro
 >머신러닝과 CNN을 활용하여 이미지 분류 및 영양소 분석을 통한 반찬 예측 및 메뉴 추천 시스템 (팀 프로젝트)  <br>
->목적 : 영양 불균형 문제를 해결하기 위한CNN 기반 반찬 예측과 메뉴 추천 시스템 개발 <br>
->동기 : 1인 가구의 식단 문제 해결 및 개인의 건강촉진,영양 문제에 대한 인식과 관심 상승 <br>
 >URL   
+
+---
+
+#### `목적`
+>영양 불균형 문제를 해결하기 위한CNN 기반 반찬 예측과 메뉴 추천 시스템 개발 <br>
+
+---
+
+#### `동기`
+>1인 가구의 식단 문제 해결 및 개인의 건강촉진,영양 문제에 대한 인식과 관심 상승 <br>
 
 ---
 
@@ -78,27 +86,28 @@
 #### `Utilized  Skils`
 >데이터 분석 라이브러리   <br>
 	- pandas, numpy   <br>
-	- tensorflow   <br>
+	- tensorflow, keras   <br>
 	- google.colab   <br>
 	- apriori, fpgrowth   <br>
-	- K-Means, DBSCAN   <br>
+	- KMeans, DBSCAN   <br>
+	- cv2   <br>
 	- MobileNet   <br>
 	
 >웹 크롤링 라이브러리   <br>
 	- Beautiful Soup, Selenium,	Requests   <br>
 	
 >시각화<br>
-	- matplotlib, seaborn   <br>
+	- matplotlib, seaborn, Axes3D, WordCloud   <br>
 	
 >통계 및 분석 기법   <br>
-	- CNN   <br>
-	- 연관 분석   <br>
-	- 군집 분석   <br>
+	- CNN(MobileNet, OpenCV)   <br>
+	- 연관 분석(Apriori, FP-Growth)   <br>
+	- 군집 분석(K-Means, DBSCAN)   <br>
 
 ---
 
 ## :pushpin: Projects
-## 1. 개요
+## 1. Overview
 >본 프로젝트는 1인 가구의 영양 불균형 문제를 해결하기 위해 이미지 분석을 활용하여 반찬 예측과 메뉴 추천 시스템을 개발하는 것을 목표로 합니다.<br>
 >연관분석을 통해 한끼 식단과 점심-저녁 메뉴 추천 기능을 구현하여 개인의 영양 균형 개선과 식단 다양성을 증가시킵니다.<br>
 >이를 통해 건강한 식습관 형성을 지원합니다.<br>
@@ -113,7 +122,7 @@
 
 ---
 
-## 3. 배경
+## 3. Background
 
 #### `현대 도시의 건강 과제: 1인 가구의 영양 불균형 현황 파악`
 ![](./Files/img/배경설명.png)
@@ -139,7 +148,7 @@ _김성아 등 4인,『서울시민 만성질환 실태와 식생활 위험요�
 |  | **NUTRIGENI** | O | X | O | X |
 |  | **PILLY** |  O | X | O | O |
 |  |  |  |  |  |
-| 제안하는 서비스 | **GGULKKUK** | O | O | O | O |
+| **제안하는 서비스** | **GGULKKUK** | **O** | **O** | **O** | **O** |
 
 ---
 
