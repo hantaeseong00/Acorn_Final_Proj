@@ -1,8 +1,6 @@
 # :pushpin: Image Classification
 >MobileNet 전이학습 모델을 활용한 음식 이미지 데이터 분류에 적합한 Fine-Tuning.
 
-<br>
-
 ---
 
 ## 1. 데이터 수집 및 전처리
@@ -91,7 +89,7 @@
 - Dropout: 0.5
 - optimizer: Adam
 
-</br>
+---
 
 ### 2.3. Basic
 - Model Architecture: MobileNet - F - D(1024) - D(1024) - D(1024)<BR>
@@ -99,7 +97,8 @@
 ![](./Graph/1.png)   <BR>
 - Accuracy : 0.9488<BR>
 - Learning Time : 26376814.830 ms<BR>
-</br>
+
+---
 
 ### 2.4. Change dense value to 2048
 - Model Architecture: MobileNet - F - D(2048) - D(2048) - D(2048)<BR>
@@ -108,7 +107,7 @@
 - Accuracy : 0.9520<BR>
 - Learning Time : 25686338.559 ms<BR>
 
-</br>
+---
 
 ### 2.5. Change dense value to 4098
 - Model Architecture: MobileNet - F - D(4098) - D(4098) - D(4098)<BR>
@@ -117,7 +116,7 @@
 - Accuracy : 0.9523<BR>
 - Learning Time : 25535377.915 ms<BR>
 
-</br>
+---
 
 ### 2.6. Change the number of hidden layers to 2
 - Model Architecture: MobileNet - F - D(1024) - D(1024)<BR>
@@ -126,7 +125,7 @@
 - Accuracy : 0.9520<BR>
 - Learning Time : 20395924.553 ms<BR>
 
-</br>
+---
 
 ### 2.7. Change the number of hidden layers to 4
 - Model Architecture: MobileNet - F - D(1024) - D(1024) - D(1024) - D(1024)<BR>
@@ -135,7 +134,7 @@
 - Accuracy : 0.9365<BR>
 - Learning Time : 20511320.952 ms<BR>
 
-</br>
+---
 
 ### 2.8. Change learning rate value to 5e-5
 - Model Architecture: MobileNet - F - D(1024) - D(1024) - D(1024)<BR>
@@ -144,7 +143,7 @@
 - Accuracy : 0.9537<BR>
 - Learning Time : 23425362.471 ms<BR>
 
-</br>
+---
 
 ### 2.9. Change learning rate value to 2e-4
 - Model Architecture: MobileNet - F - D(1024) - D(1024) - D(1024)<BR>
@@ -153,7 +152,7 @@
 - Accuracy : 0.9654<BR>
 - Learning Time : 28082135.071 ms<BR>
 
-</br>
+---
 
 ## 3. The result of MobileNet fine-tuning
 
@@ -172,8 +171,7 @@
 | **mn_resultset6** | 3 | 1024 | 5e-5 | 95.37% | 23425362 |
 | **mn_resultset7** | 3 | 1024 | **2e-4** | **96.54%** | **28082135** |
 
-
-</br>
+---
 
 ## 4. Reflection
 
