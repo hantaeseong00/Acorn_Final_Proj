@@ -13,12 +13,14 @@
 #### `식단 데이터`
 
 >[우리학교급식식단(식품안전나라)](https://foodsafetykorea.go.kr/portal/sensuousmenu/schoolMealsDetail.do)<br>   
+
 | **컬럼명** | **타입** | **설명** |
 | :-- | :-- | :-- |
 | sch_nm | Object | 고등학교명(총 2660개) |
 | menu_date | datetime | 식단제공일자(2019년-2023년) |
 | dt | Object | 중식 또는 석식 |
 | menu | Object | 식단 정보 (Ex. 기장밥 세발나물(자율) 물미역/초고추장(자율) ... |
+
 >대략 190만개의 식단 데이터 수집<br>
 
 ### 1.2. 전처리(1차)
