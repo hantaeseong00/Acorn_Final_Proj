@@ -1,7 +1,4 @@
 # :pushpin: Side Menu Prediction
->고퀄리티 개발 컨텐츠 공유 서비스  
->https://go-quality.dev  
-# :pushpin: Side Menu Prediction
 >이미지 분류 알고리즘을 통해 추정된 음식을 기반으로 FP-Growth 모델을 활용한 반찬 예측 알고리즘
 
 ---
@@ -10,7 +7,7 @@
 
 ### 1.1. 데이터 수집
 
-#### `식단 데이터`
+#### `1일 권장 섭취 영양소`
 
 >[우리학교급식식단(식품안전나라)](https://foodsafetykorea.go.kr/portal/sensuousmenu/schoolMealsDetail.do)<br>   
 
@@ -19,9 +16,11 @@
 | sch_nm | Object | 고등학교명(총 2660개) |
 | menu_date | datetime | 식단제공일자(2019년-2023년) |
 | dt | Object | 중식 또는 석식 |
-| menu | Object | 식단 정보 (Ex. 기장밥 세발나물(자율) 물미역/초고추장(자율) ... |
+| menu | Object | 식단 정보 (Ex. 기장밥 세발나물(자율) 물미역/초고추장(자율) ...) |
 
 >대략 190만개의 식단 데이터 수집<br>
+
+---
 
 ### 1.2. 전처리(1차)
 
@@ -35,6 +34,8 @@
 |  |  | - 과도하게 세분화된 메뉴명 |
 |  |  | - 창의적인 메뉴명 |
 
+---
+
 ### 1.2. 전처리(2차)
 
 ![](./Graph/전처리2차.png)
@@ -45,6 +46,8 @@
 | **식단수** | 1,372,182 | 345,703 |
 | **비고** |  | - 식품영양성분DB의 메뉴명과 매칭 |
 |  |  | - 전처리 후, 3개 미만의 메뉴로 구성된 식단 제외 |
+
+---
 
 ## 2. Association Rules
 
