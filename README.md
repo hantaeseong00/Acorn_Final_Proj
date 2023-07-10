@@ -265,6 +265,11 @@ _김성아 등 4인,『서울시민 만성질환 실태와 식생활 위험요�
 
 ### [6.4. Prototype Development](https://github.com/hantaeseong00/Acorn_Final_Proj/tree/main/Source%20Code/3.%20Dinner%20Recommendation)
 
+#### `User Storyboard`
+![](https://github.com/hantaeseong00/Acorn_Final_Proj/blob/main/Source%20Code/4.%20Prototype/Image/1.png)
+![](https://github.com/hantaeseong00/Acorn_Final_Proj/blob/main/Source%20Code/4.%20Prototype/Image/2.png)
+![](https://github.com/hantaeseong00/Acorn_Final_Proj/blob/main/Source%20Code/4.%20Prototype/Image/3.png)
+![](https://github.com/hantaeseong00/Acorn_Final_Proj/blob/main/Source%20Code/4.%20Prototype/Image/4.png)
 ---
 
 ## 7. Limitations and Compensation Points
